@@ -1,0 +1,24 @@
+@startuml
+class Request {
+- method: String
+- path: String
+- content: String
+- contentType: String
+- contentLength: Integer
+}
+
+class Response {
+- statusCode: Integer
+- message: String
+- content: String
+- contentType: String
+}
+
+class RequestBuilder {
+
+}
+
+class Application {
+
+}
+@enduml
